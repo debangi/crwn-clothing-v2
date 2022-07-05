@@ -10,7 +10,7 @@ import Checkout from './routes/checkout/checkout.component';
 
 const App = () => {
   useEffect(() => {
-    getCurrentUser().then((user) => console.log(user));
+    getCurrentUser();
   }, []);
 
   return (
